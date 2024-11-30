@@ -1,0 +1,84 @@
+/* src/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: 50px;
+  }
+  
+  header, footer {
+    background-color:rgba(0, 0, 0, 0.855);
+    color: rgb(199, 199, 199);
+    padding: 100px;
+    text-align: center;
+    border-width: 20px;
+  }
+  
+  header nav a, footer a {
+    color: #d0fd1d;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  h2 {
+    color: #141313;
+  }
+  
+  .home {
+    padding: 50px;
+    height: 100vh;
+    background-image: url(https://wallup.net/wp-content/uploads/2019/09/761372-restaurant-food-architecture-interior-design-room.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 1px 4px
+    rgba(red, green, blue, alpha);
+    text-align: center;
+    text-size-adjust: 50px;
+    
+  }
+  .about,.cart{
+    padding: 50px;
+  }
+  .categories{
+    text-align: center;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8 px;
+    padding: 20px;
+  }
+  .CakesDetails{
+display: flex;
+flex-wrap: wrap;
+gap:20px;
+justify-content: center;
+  }
+  .CakesData img{
+    max-width: 100%;
+    height:auto;
+    border-radius: 8px;
+    
+  }
+  
+  img {
+    max-width: 350px;
+    height: 350px;
+  }
+  .home::before {
+    
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding-top: 250px;
+  }
